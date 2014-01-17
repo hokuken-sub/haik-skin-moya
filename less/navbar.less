@@ -1,0 +1,40 @@
+#orgm_navbar.navbar {
+
+
+
+	// Active nav items
+	.navbar-nav > .active > a,
+	/* .nav > .active > a:hover, */
+	.navbar-nav > .active > a:focus {
+		background-color: transparent;
+		color: @linkColor;
+	}
+
+	.navbar-nav > li > a:hover {
+		color: @linkColor;
+	}
+
+	.nav li.dropdown.open > .dropdown-toggle,
+	.nav li.dropdown.active > .dropdown-toggle,
+	.nav li.dropdown.open.active > .dropdown-toggle {
+		font-weight: bold;
+		background-color: transparent;
+	}
+
+	// Hover/Focus state
+	// -----------
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-submenu:hover > a,
+	.dropdown-submenu:focus > a {
+		background-color: @themeBackground;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	#orgm_navbar .nav > li.dropdown.open ul.dropdown-menu {
+		background-color: transparent;
+		color: inherit;
+	}
+}

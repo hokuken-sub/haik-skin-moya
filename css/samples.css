@@ -1,0 +1,41 @@
+.sample-style-name-moya [class*=sample-style-color] {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0);
+}
+.sample-style-name-moya .sample-style-color {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(transparent), color-stop(0.46, transparent), color-stop(0.51, rgba(0, 0, 0, 0.3)), color-stop(0.51, transparent), color-stop(1, transparent), to(transparent)), -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.46, transparent), color-stop(0.51, rgba(0, 0, 0, 0.3)), color-stop(0.51, transparent), color-stop(1, transparent), to(transparent));
+  background-image: -moz-linear-gradient(225deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), -moz-linear-gradient(135deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+  background-image: -o-linear-gradient(225deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), -o-linear-gradient(135deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+  background-image: linear-gradient(45deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), linear-gradient(-45deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+}
+.sample-style-name-moya .sample-style-color-black {
+  background-color: #000000;
+}
+.sample-style-name-moya .sample-style-color-green {
+  background-color: #69aa35;
+}
+.sample-style-name-moya [class*=sample-style-texture] {
+  background-image: transparent;
+  color: rgba(0, 0, 0, 0);
+}
+.sample-style-name-moya .sample-style-texture {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(transparent), color-stop(0.46, transparent), color-stop(0.51, rgba(0, 0, 0, 0.3)), color-stop(0.51, transparent), color-stop(1, transparent), to(transparent)), -webkit-gradient(linear, left bottom, right top, from(transparent), color-stop(0.46, transparent), color-stop(0.51, rgba(0, 0, 0, 0.3)), color-stop(0.51, transparent), color-stop(1, transparent), to(transparent));
+  background-image: -moz-linear-gradient(225deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), -moz-linear-gradient(135deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+  background-image: -o-linear-gradient(225deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), -o-linear-gradient(135deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+  background-image: linear-gradient(45deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent), linear-gradient(-45deg, transparent, transparent 49%, rgba(0, 0, 0, 0.3) 50%, transparent 51%, transparent);
+}
+.sample-style-name-moya .sample-style-texture-cloth {
+  background-image: url("../img/cloth.png");
+}
+.sample-style-name-moya .sample-style-texture-dust {
+  background-image: url("../img/dust.png");
+}
+.sample-style-name-moya .sample-style-texture-project_paper {
+  background-image: url("../img/project_paper.png");
+}
+.sample-style-name-moya .sample-style-texture-square {
+  background-color: #fafafa;
+  background-image: url("../img/square.png");
+}

@@ -1,0 +1,38 @@
+
+@theme:        #69aa35;
+@themeBackground: lighten(@theme, 25%);
+@themeBorder:     lighten(@theme, 5%);
+@themeText:       darken(@theme, 5%);
+
+@linkColor:       @theme;
+@linkColorHover:  lighten(@theme, 5%);
+
+
+@baseColor:    @theme;
+@endColor:     lighten(@baseColor, 70%);
+@baseOpacity:  .4;
+
+@import "skin.less";
+@import "color.less";
+
+
+#orgm_menu {
+	.nav > li.active > a,
+	.nav .nav > li.active > a {
+		font-weight: bold;
+	}
+
+	.nav > li > a:hover {
+		background-color: transparent;
+	}
+
+	.alert-theme .nav > li > a,
+	.alert-theme .nav .nav > li > a {
+	  color: @themeText;
+	}
+
+	.alert-theme .nav > li > a:hover,
+	.alert-theme .nav .nav > li > a:hover {
+		color: @grayLighter;
+	}
+}
